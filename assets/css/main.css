@@ -2418,9 +2418,14 @@ input, select, textarea {
 		position: relative;
 	}
 
+		
 		.image img {
 			border-radius: 5px;
 			display: block;
+		}
+
+		.picsize{
+			border-radius:0px;
 		}
 
 		.image.left, .image.right {
@@ -2463,6 +2468,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			
 /* List */
 
 	ol {
@@ -4156,5 +4162,5 @@ input, select, textarea {
 	}
 
 	.picsize{
-		
+		border-radius: 100px;	
 	}
