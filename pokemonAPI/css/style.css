@@ -1,0 +1,112 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  
+  height:200px;
+  width:200px;
+}
+
+body{
+  text-align: center;
+  background: linear-gradient(blue, orange, blue);
+  /*background-image: url(../img/pokeicon.png);*/
+  color:white;
+  font-size: 1.2em;
+}
+
+h1{
+  color:red;
+  text-decoration: underline;
+}
+
+/*top paragraph*/
+.descript{
+  color: white;
+}
+
+.descript-ct{
+  background-color: rgba(0,0,0,.50);
+}
+
+h2{
+  text-align: left;
+  color:red;
+  font-size: 35px;
+  margin-left: 15%;
+  text-decoration:underline;
+}
+
+/*pokemon names*/
+.container >ul{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: linear-gradient(yellow, black)
+}
+
+.container > ul >li{
+  background-color: gray;
+  background-image: url(../img/goldbg.webp);
+}
+
+/*name and image*/
+.namepic > ul{
+  display:flex;
+  flex-direction: row;
+  margin:auto 100px
+}
+
+.namepic > ul >li{
+  display:flex;
+  flex-direction: row;
+  margin:auto 15%;
+}
+
+#pokename{
+  font-size: 65px;
+}
+
+/*moves*/
+.container2{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  
+  margin: auto 10%;
+}
+
+/*types-weight-ability*/
+.container3{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+/*buttons*/
+.container4 > button{
+  margin:auto 10px;
+}
+
+li{
+  list-style-type: none;
+  margin: 10px;
+}
+
+.container3 >li, .container2 >li, .namepic>ul>li, .container3{
+  color:yellow;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
