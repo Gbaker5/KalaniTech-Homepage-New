@@ -3,6 +3,7 @@
 .leftimg, .midimg, .rightimg{
     border-bottom: 1px solid #4c5c96;
     border-top: 1px solid #4c5c96;
+    box-shadow: 0px 5px 6px 0px;
 }
 
 .leftimg{
