@@ -19,6 +19,11 @@
     .leftimg{
         border-left: 1px solid #4c5c96;
     }
+
+    .middleimg{
+        border-left: none;
+        border-right: none;
+    }
     
     .rightimg{
         border-right: 1px solid #4c5c96;
