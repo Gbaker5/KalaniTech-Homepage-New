@@ -1,22 +1,26 @@
 
 
-.leftimg, .midimg, .rightimg{
-    border-bottom: 1px solid #4c5c96;
-    border-top: 1px solid #4c5c96;
-    box-shadow: 0px 5px 6px 0px;
-}
 
-.leftimg{
-    border-left: 1px solid #4c5c96;
-}
 
-.rightimg{
-    border-right: 1px solid #4c5c96;
-}
 
-@media screen and (max-width: 840px){
     .leftimg, .midimg, .rightimg{
         border: 3px solid #4c5c96;
        
+    }
+
+
+@media (min-width: 841px) and (max-width: 1280px){
+    .leftimg, .midimg, .rightimg{
+        border-bottom: 1px solid #4c5c96;
+        border-top: 1px solid #4c5c96;
+        box-shadow: 0px 5px 6px 0px;
+    }
+    
+    .leftimg{
+        border-left: 1px solid #4c5c96;
+    }
+    
+    .rightimg{
+        border-right: 1px solid #4c5c96;
     }
 }
